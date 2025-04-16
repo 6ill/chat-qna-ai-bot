@@ -37,7 +37,7 @@ A full-stack AI-powered assistant for uploading, storing, and chatting with your
 ### 1. Clone the Repository
 
 ```bash
-git clone --recurse-submodules <repo-url>
+git clone --recurse-submodules https://github.com/6ill/chat-qna-ai-bot.git
 cd chat-qna-ai-bot
 ```
 
