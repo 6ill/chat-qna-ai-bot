@@ -75,11 +75,14 @@ Frontend runs on [http://localhost:5173](http://localhost:5173) by default.
 
 ## Usage
 
-1. Register a new account.
-2. Login.
-3. Upload PDF documents (max 3 per user).
-4. Select a document and start chatting with it!
-5. Delete documents as needed.
+1. Login and Register a new account.
+![Login](./media/login.gif)
+2. Upload PDF documents (max 3 per user).
+![Upload a document](./media/upload.gif)
+3. Select a document and start chatting with it!
+![Chat](./media//chat.gif)
+4. Delete documents as needed.
+![De;ete document](./media/delete.gif)
 
 ---
 
