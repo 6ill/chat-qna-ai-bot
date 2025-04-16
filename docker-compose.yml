@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  chroma:
+    image: chromadb/chroma
+    ports:
+      - '8000:8000'
+    volumes:
+      - ./chroma_data:/chroma/chroma
+    environment:
+      - IS_PERSISTENT=TRUE
+      - CHROMA_SERVER_CORS_ALLOW_ORIGINS=["http://localhost:3000"]
+      - PERSIST_DIRECTORY=/chroma/chroma
+    restart: always
+
+  ollama: 
+    image: ollama/ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    restart: always
+
+  postgres:
+    image: postgres:14-alpine
+    restart: always
+    ports:
+      - "5430:5432"
+    environment:
+      POSTGRES_USER: doc_assistant
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: personal_doc_assistant
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  ollama_models:
+  postgres_data:
