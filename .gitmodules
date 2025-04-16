@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:6ill/backend-personal-document-assistant-nestjs-langchain.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:6ill/personal-qna-chat-document-frontend.git
