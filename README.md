@@ -12,7 +12,6 @@ A full-stack AI-powered assistant for uploading, storing, and chatting with your
 - Chat Q&A: Ask questions about your uploaded documents
 - Streaming AI responses (Ollama + LangChain)
 - Persistent vector search (ChromaDB)
-- Modern UI (React + Vite + Redux)
 
 ---
 
