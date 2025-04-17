@@ -88,7 +88,7 @@ Frontend runs on [http://localhost:5173](http://localhost:5173) by default.
 ## Environment Variables
 
 See `backend/.env.example` for required backend environment variables.
-
+See `./.env.example` for required environment variables for building docker container.
 ---
 
 
