@@ -66,6 +66,8 @@ npm run start:dev
 
 ```bash
 cd frontend
+# Edit .env as needed and make sure every variables must have 'VITE_' prefix
+cp .env.example .env    
 npm install
 npm run dev
 ```
@@ -88,10 +90,10 @@ Frontend runs on [http://localhost:5173](http://localhost:5173) by default.
 ---
 
 ## Environment Variables
+- See `backend/.env.example` for required backend environment variables.
+- See `./.env.example` for required environment variables for building docker container.
+- See `frontend/.env.example` for required frontend environment variables.
 
-See `backend/.env.example` for required backend environment variables.
-See `./.env.example` for required environment variables for building docker container.
----
 
 ## License
 
