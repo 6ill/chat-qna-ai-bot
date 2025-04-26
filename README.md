@@ -2,6 +2,8 @@
 
 A full-stack AI-powered assistant for uploading, storing, and chatting with your personal documents. Built with **NestJS**, **React**, **LangChain**, **Ollama**, **ChromaDB**, and **PostgreSQL**.
 
+**⚠ Warning:** This application may run very slowly on local machines, especially during document insertion into the vector database and answer generation, unless you have a GPU or high-performance hardware.
+
 ---
 
 ## Features
@@ -90,7 +92,6 @@ Frontend runs on [http://localhost:5173](http://localhost:5173) by default.
 See `backend/.env.example` for required backend environment variables.
 See `./.env.example` for required environment variables for building docker container.
 ---
-
 
 ## License
 
